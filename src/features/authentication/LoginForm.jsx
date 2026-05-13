@@ -12,6 +12,10 @@ function LoginForm() {
 
   const { login, isLoading } = useLogin();
 
+  function handleDemoLogin() {
+    login({ email: "taxifi4166@spotshops.com", password: "123123123" });
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -56,6 +60,19 @@ function LoginForm() {
           {!isLoading ? "Log in" : <SpinnerMini />}
         </Button>
       </FormRowVertical>
+      <FormRowVertical>
+        <Button
+          type="button"
+          size="large"
+          onClick={handleDemoLogin}
+          disabled={isLoading}
+        >
+          Login as Guest
+        </Button>
+      </FormRowVertical>
+      <p style={{ textAlign: "center", marginTop: "0.4rem" }}>
+        Use guest login to explore the dashboard
+      </p>
     </Form>
   );
 }
