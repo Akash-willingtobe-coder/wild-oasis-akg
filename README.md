@@ -92,10 +92,10 @@ npm run dev
 
 ## 🔗 Links
 
-- **Live Demo (Admin Dashboard):** [Add your deployed link here]
-- **Live Demo (Customer Portal):** [Add your deployed link here]
+- **Live Demo (Admin Dashboard):** [https://wild-oasis-akg.vercel.app]
+- **Live Demo (Customer Portal):** [https://the-wild-oasis-website-pearl.vercel.app]
 - **GitHub Repo (Admin):** [github.com/Akash-willingtobe-coder/wild-oasis-akg](https://github.com/Akash-willingtobe-coder/wild-oasis-akg)
-- **GitHub Repo (Customer Portal):** [Add link if it's a separate repo]
+- **GitHub Repo (Customer Portal):** [github.com/Akash-willingtobe-coder/wild-oasis-akg](https://github.com/Akash-willingtobe-coder/the-wild-oasis-website)
 
 ## 📌 What This Project Demonstrates
 
